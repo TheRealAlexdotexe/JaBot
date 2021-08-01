@@ -1,0 +1,20 @@
+{
+  "name": "test_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "discord.js": "^12.5.3",
+    "mathjs": "^9.4.4",
+    "mongoose": "^5.13.3",
+    "sleep": "^6.3.0",
+    "yabai": "0.0.10"
+  }
+}
