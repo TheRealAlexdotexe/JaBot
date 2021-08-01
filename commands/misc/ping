@@ -1,0 +1,9 @@
+module.exports = {
+    commands: ['ping'],
+    description: 'Pong!',
+    callbacks: (message, arguments, text, client) => {
+        message.reply('_Loading..._').then(resultMessage => {
+            const ping = resultMessage.createdTimestamp = message.createdTimestamp
+        })
+    }
+}
